@@ -1,10 +1,7 @@
 $(document).ready(function () {
   $("header button").click(function () {
-    //quando clicar no botão 'NOVA IMAGEM'
-    $("form").slideDown(); // o menu será expandido
+    $("form").slideDown();
   });
-
-  //Previne o comportamento padrão da pagina quando ele é subimetido (submit)
   $("form").on("submit", function (e) {
     e.preventDefault();
 
