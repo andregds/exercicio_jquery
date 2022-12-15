@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.container {
+  display: flex;
+  padding: 10px; /* da empaço entre os elementos */
+  max-width: 300px;
+  /*altera o alinhamento na horizontal*/
+  justify-content: center; /*space-between*/
+  flex-wrap: wrap; /* quando a area maxima seja atingiga os elementos sejam jogado para a linha de baixo  */
+
+  margin-top: 10%;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  padding: 10px;
+}
+
+form {
+  text-align: center;
+  padding: px;
+}
+
+input,
+button {
+  padding: 8px;
+}
+
+button {
+  background-color: rgb(13, 113, 243);
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: white;
+}
+
+li {
+  margin-top: 20px;
+  list-style: none;
+  margin-right: 140px;
+  cursor: pointer;
+}
+
+.marcado {
+  text-decoration: line-through;
+  color: rgb(0, 0, 0);
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapi.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="styleshee"
+    />
+
+    <link rel="stylesheet" href="main.css" />
+
+    <title>Lista de Tarefas</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h2>Lista de Tarefas</h2>
+      </header>
+
+      <form id="form-lista">
+        <input type="text" id="textoTarefa" placeholder="Nome da tarefa" />
+
+        <button type="submit">Cadastrar</button>
+      </form>
+
+      <div class="listaClass">
+        <ul>
+          <li id="liss"></li>
+        </ul>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <!-- Adicionando o endereço da Jquery -->
+    <script src="main.js"></script>
+    <!-- sempre após o JQuery se não, nem funciona-->
+  </body>
+</html>
